@@ -28,7 +28,6 @@ banner = '''
  |_|  |_|_|      |_____/ \_/\_/ |_|\__\___|_| |_|  \_____\___/|_| |_|\__|_|  \___/|_|_|\___|_|   
                                                                                                  
                                                                                                  '''
-creator = ('\t'*9)+'Created by: Rayen Dhmaied\n'
 
 class Switch:
     
@@ -137,7 +136,6 @@ def switch_register():
 def menu():
     system('cls')
     print(banner)
-    print(creator)
     switch_register()
     while 1:
         print('1 - Get switch version & uptime')
