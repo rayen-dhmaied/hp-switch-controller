@@ -11,7 +11,7 @@ Next, register the switches you'd like to control then you'll get a menu with co
 Running command 2 will generate an excel file of a list of devices connected to the chosen switch with details.
 ## Execution
 
-Simply double click on the file after added your LAN Range.
+Simply double click on the file after adding your LAN Range.
 
 This script installs the necessary packages by itself.
 In case of an error, delete lines 1-11 and try installing the packages by yourself using pip.
